@@ -1,11 +1,14 @@
 import React from "react";
+import Banner from "./components/Banner/Banner";
+import Collections from "./components/Collections/Collections";
 import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="w-screen h-screen bg-gradient-to-b from-gray-100 to-gray-300">
+    <div className="w-screen h-screen bg-white overflow-y-scroll">
       <Navbar />
-      <button>generate json</button>
+      <Banner />
+      <Collections />
     </div>
   );
 }
