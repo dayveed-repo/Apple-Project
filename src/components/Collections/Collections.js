@@ -7,7 +7,7 @@ import AccessoryLogo from "../../Images/Acessory-Fashion.png";
 const Collections = () => {
   return (
     <div className="w-full max-w-4xl space-y-2 mx-auto mt-10">
-      <h2 className="text-lg text-slate-600 font-semibold">Collection</h2>
+      <h2 className="SectionName">Collection</h2>
 
       <div className="h-[40vh] max-h-64 grid grid-rows-2 grid-cols-4 gap-2">
         <div className="col-span-2 row-span-2 collectionContainer">

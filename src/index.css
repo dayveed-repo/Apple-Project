@@ -14,4 +14,8 @@
   .categoryName {
     @apply absolute left-[60%] bottom-[15%];
   }
+
+  .SectionName {
+    @apply text-lg text-amber-600 font-semibold;
+  }
 }

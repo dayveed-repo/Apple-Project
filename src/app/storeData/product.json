@@ -1,0 +1,422 @@
+[
+  {
+    "product_rank": "#1",
+    "product_title": "Fire TV Stick, free and live TV, Alexa Voice Remote, TV & smart home controls, HD streaming",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/51KKR5uGn6L._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 19.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/fire-tv-stick-with-3rd-gen-alexa-voice-remote/dp/B08C1W5N87/ref=zg_bs_amazon-devices_sccl_1/145-0382164-6446914?pd_rd_i=B08C1W5N87&psc=1",
+    "product_id": "B08C1W5N87"
+  },
+  {
+    "product_rank": "#2",
+    "product_title": "Blink Mini – Compact indoor plug-in smart security camera, 1080p HD video, night vision, motion detection, two-way audio, easy set up, Works with Alexa – 2 cameras (White)",
+    "reviews": "4.4 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/31k0hI-y8pL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 29.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Blink-Mini-White-2Cam/dp/B07X27VK3D/ref=zg_bs_amazon-devices_sccl_2/145-0382164-6446914?pd_rd_i=B07X27VK3D&psc=1",
+    "product_id": "B07X27VK3D"
+  },
+  {
+    "product_rank": "#3",
+    "product_title": "Fire TV Stick 4K Max streaming device, Wi-Fi 6, Alexa Voice Remote (includes TV controls)",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/41XTOfFgUqL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 34.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/fire-tv-stick-4k-max-with-alexa-voice-remote/dp/B08MQZXN1X/ref=zg_bs_amazon-devices_sccl_3/145-0382164-6446914?pd_rd_i=B08MQZXN1X&psc=1",
+    "product_id": "B08MQZXN1X"
+  },
+  {
+    "product_rank": "#4",
+    "product_title": "Ring Video Doorbell – 2020 release – 1080p HD video, improved motion detection, easy installation – Satin Nickel",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/71vtXgJBagL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 69.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Ring-Video-Doorbell-Satin-Nickel-2020-Release/dp/B08N5NQ869/ref=zg_bs_amazon-devices_sccl_4/145-0382164-6446914?pd_rd_i=B08N5NQ869&psc=1",
+    "product_id": "B08N5NQ869"
+  },
+  {
+    "product_rank": "#5",
+    "product_title": "Echo Dot (3rd Gen, 2018 release) - Smart speaker with Alexa - Charcoal",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/6182S7MYC2L._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 17.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Echo-Dot/dp/B07FZ8S74R/ref=zg_bs_amazon-devices_sccl_5/145-0382164-6446914?pd_rd_i=B07FZ8S74R&psc=1",
+    "product_id": "B07FZ8S74R"
+  },
+  {
+    "product_rank": "#6",
+    "product_title": "Echo Dot (3rd Gen) | Charcoal with 2-Pack GE CYNC Smart LED Color Bulb",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/31lMrS5KeCL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 17.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Echo-Charcoal-2-Pack-Smart-Color/dp/B0B52P2HJX/ref=zg_bs_amazon-devices_sccl_6/145-0382164-6446914?pd_rd_i=B0B52P2HJX&psc=1",
+    "product_id": "B0B52P2HJX"
+  },
+  {
+    "product_rank": "#7",
+    "product_title": "Echo Show 8 (2nd Gen, 2021 release) | HD smart display with Alexa and 13 MP camera | Charcoal",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/51yQll2L7xL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 69.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Echo-Show-8-2nd-Gen-2021-release/dp/B084DCJKSL/ref=zg_bs_amazon-devices_sccl_7/145-0382164-6446914?pd_rd_i=B084DCJKSL&psc=1",
+    "product_id": "B084DCJKSL"
+  },
+  {
+    "product_rank": "#8",
+    "product_title": "Echo Dot (4th Gen, 2020 release) | Smart speaker with Alexa | Charcoal",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/51cGlUCK5WL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 24.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Echo-Dot/dp/B07XJ8C8F5/ref=zg_bs_amazon-devices_sccl_8/145-0382164-6446914?pd_rd_i=B07XJ8C8F5&psc=1",
+    "product_id": "B07XJ8C8F5"
+  },
+  {
+    "product_rank": "#9",
+    "product_title": "Ring Video Doorbell Wired – Convenient, essential features in a compact design, pair with Ring Chime to hear audio alerts in your home (existing doorbell wiring required) - 2021 release",
+    "reviews": "4.5 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/71bgyic1TQL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 39.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Ring-Video-Doorbell-Wired/dp/B08CKHPP52/ref=zg_bs_amazon-devices_sccl_9/145-0382164-6446914?pd_rd_i=B08CKHPP52&psc=1",
+    "product_id": "B08CKHPP52"
+  },
+  {
+    "product_rank": "#10",
+    "product_title": "Echo Dot (4th Gen) | Smart speaker with clock and Alexa | Twilight Blue",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/51k+icoF1vL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 34.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Echo-Dot-With-Clock-4th-Gen/dp/B085M66LH1/ref=zg_bs_amazon-devices_sccl_10/145-0382164-6446914?pd_rd_i=B085M66LH1&psc=1",
+    "product_id": "B085M66LH1"
+  },
+  {
+    "product_rank": "#11",
+    "product_title": "Amazon Smart Plug, for home automation, Works with Alexa - A Certified for Humans Device",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/41couS+UODL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 12.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Amazon-smart-plug-works-with-Alexa/dp/B089DR29T6/ref=zg_bs_amazon-devices_sccl_11/145-0382164-6446914?pd_rd_i=B089DR29T6&psc=1",
+    "product_id": "B089DR29T6"
+  },
+  {
+    "product_rank": "#12",
+    "product_title": "Blink Video Doorbell | Two-way audio, HD video, motion and chime app alerts and Alexa enabled — wired or wire-free (Black)",
+    "reviews": "4.3 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/41te-uzWxDL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 49.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Blink-Video-Doorbell/dp/B08SG2MS3V/ref=zg_bs_amazon-devices_sccl_12/145-0382164-6446914?pd_rd_i=B08SG2MS3V&psc=1",
+    "product_id": "B08SG2MS3V"
+  },
+  {
+    "product_rank": "#13",
+    "product_title": "Fire HD 10 tablet, 10.1\", 1080p Full HD, 32 GB, latest model (2021 release), Black",
+    "reviews": "4.6 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/61uE03cRsyS._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 74.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Fire-HD-10-tablet/dp/B08BX7FV5L/ref=zg_bs_amazon-devices_sccl_13/145-0382164-6446914?pd_rd_i=B08BX7FV5L&psc=1",
+    "product_id": "B08BX7FV5L"
+  },
+  {
+    "product_rank": "#14",
+    "product_title": "Echo Show 5 (2nd Gen, 2021 release) | Smart display with Alexa and 2 MP camera | Charcoal",
+    "reviews": "4.6 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/51iobpaEM5S._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 34.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Echo-Show-5-2nd-Gen-2021-release/dp/B08J8FFJ8H/ref=zg_bs_amazon-devices_sccl_14/145-0382164-6446914?pd_rd_i=B08J8FFJ8H&psc=1",
+    "product_id": "B08J8FFJ8H"
+  },
+  {
+    "product_rank": "#15",
+    "product_title": "Echo Dot (4th Gen) | Charcoal with 2-Pack GE CYNC Smart LED Color Bulb",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/31cJoh9jswL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 24.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Echo-Charcoal-2-Pack-Smart-Color/dp/B0BFGF3H4Z/ref=zg_bs_amazon-devices_sccl_15/145-0382164-6446914?pd_rd_i=B0BFGF3H4Z&psc=1",
+    "product_id": "B0BFGF3H4Z"
+  },
+  {
+    "product_rank": "#16",
+    "product_title": "Kindle Paperwhite (8 GB) – Now with a 6.8\" display and adjustable warm light",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/51QCk82iGcL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 99.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/All-new-Kindle-Paperwhite-adjustable-Ad-Supported/dp/B08KTZ8249/ref=zg_bs_amazon-devices_sccl_16/145-0382164-6446914?pd_rd_i=B08KTZ8249&psc=1",
+    "product_id": "B08KTZ8249"
+  },
+  {
+    "product_rank": "#17",
+    "product_title": "Echo Show 8 (2nd Gen, 2021 release) | HD smart display with Alexa and 13 MP camera | Glacier White",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/51swTkrXwFL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 69.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Echo-Show-8-2nd-Gen-2021-release/dp/B084DC4LW6/ref=zg_bs_amazon-devices_sccl_17/145-0382164-6446914?pd_rd_i=B084DC4LW6&psc=1",
+    "product_id": "B084DC4LW6"
+  },
+  {
+    "product_rank": "#18",
+    "product_title": "Echo Show 5 (2nd Gen) | Charcoal with 2-Pack GE CYNC Smart LED Color Bulb",
+    "reviews": "4.6 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/31R3H7M23NL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 34.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Echo-Charcoal-2-Pack-Smart-Color/dp/B0B52KQ34K/ref=zg_bs_amazon-devices_sccl_18/145-0382164-6446914?pd_rd_i=B0B52KQ34K&psc=1",
+    "product_id": "B0B52KQ34K"
+  },
+  {
+    "product_rank": "#19",
+    "product_title": "Fire HD 8 Kids tablet, 8\" HD display, ages 3-7, 32 GB, includes a 1-year subscription to amazon Kids+ content, Blue Kid-Proof Case",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/61lgxCi9b7L._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 69.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Fire-HD-8-Kids-Edition-tablet/dp/B07WDDT3G5/ref=zg_bs_amazon-devices_sccl_19/145-0382164-6446914?pd_rd_i=B07WDDT3G5&psc=1",
+    "product_id": "B07WDDT3G5"
+  },
+  {
+    "product_rank": "#20",
+    "product_title": "Fire TV Cube, Hands-free streaming device with Alexa, 4K Ultra HD, includes latest Alexa Voice Remote",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/41J618I94lL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 59.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Hands-free-streaming-device-Alexa-Ultra/dp/B08XMDNVX6/ref=zg_bs_amazon-devices_sccl_20/145-0382164-6446914?pd_rd_i=B08XMDNVX6&psc=1",
+    "product_id": "B08XMDNVX6"
+  },
+  {
+    "product_rank": "#21",
+    "product_title": "Blink Outdoor – wireless, weather-resistant HD security camera with two-year battery life and motion detection, set up in minutes – 5 camera kit",
+    "reviews": "4.4 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/51lQK1WhhrL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 189.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Blink-Outdoor-Wireless-Security-Camera-5cam/dp/B086DKGCFP/ref=zg_bs_amazon-devices_sccl_21/145-0382164-6446914?pd_rd_i=B086DKGCFP&psc=1",
+    "product_id": "B086DKGCFP"
+  },
+  {
+    "product_rank": "#22",
+    "product_title": "Fire HD 8 tablet, 8\" HD display, 32 GB, (2020 release), designed for portable entertainment, Black",
+    "reviews": "4.6 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/71rQHf5SUPL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 44.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Fire-HD-8-tablet/dp/B07TMJ1R3X/ref=zg_bs_amazon-devices_sccl_22/145-0382164-6446914?pd_rd_i=B07TMJ1R3X&psc=1",
+    "product_id": "B07TMJ1R3X"
+  },
+  {
+    "product_rank": "#23",
+    "product_title": "Blink Outdoor - wireless, weather-resistant HD security camera, two-year battery life, motion detection, set up in minutes – 3 camera kit",
+    "reviews": "4.4 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/51XU0dgFDlL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 139.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Blink-Outdoor-Wireless-Security-Camera-3cam/dp/B086DKSHQ4/ref=zg_bs_amazon-devices_sccl_23/145-0382164-6446914?pd_rd_i=B086DKSHQ4&psc=1",
+    "product_id": "B086DKSHQ4"
+  },
+  {
+    "product_rank": "#24",
+    "product_title": "Kindle Paperwhite Signature Edition (32 GB) – With a 6.8\" display, wireless charging, and auto-adjusting front light – Without Lockscreen Ads",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/51N5CsWCIBL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 134.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Introducing-kindle-paperwhite-Signature-Edition/dp/B08B495319/ref=zg_bs_amazon-devices_sccl_24/145-0382164-6446914?pd_rd_i=B08B495319&psc=1",
+    "product_id": "B08B495319"
+  },
+  {
+    "product_rank": "#25",
+    "product_title": "Blink Outdoor - wireless, weather-resistant HD security camera, two-year battery life, motion detection, set up in minutes – 2 camera kit",
+    "reviews": "4.4 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/41lLBXd-5YL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 109.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Blink-Outdoor-Wireless-Security-Camera-2cam/dp/B086DL32R3/ref=zg_bs_amazon-devices_sccl_25/145-0382164-6446914?pd_rd_i=B086DL32R3&psc=1",
+    "product_id": "B086DL32R3"
+  },
+  {
+    "product_rank": "#26",
+    "product_title": "Echo Auto- Hands-free Alexa in your car with your phone",
+    "reviews": "4.0 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/31X1pWv1CXL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 14.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Echo-Auto--Hands-free-Alexa-in-your-car-with-your-phone/dp/B07VTK654B/ref=zg_bs_amazon-devices_sccl_26/145-0382164-6446914?pd_rd_i=B07VTK654B&psc=1",
+    "product_id": "B07VTK654B"
+  },
+  {
+    "product_rank": "#27",
+    "product_title": "Amazon eero Pro 6E mesh Wi-Fi System | Fast and reliable gigabit + speeds | connect 100+ devices | Coverage up to 6,000 sq. ft. | 3-pack, 2022 release",
+    "reviews": "4.3 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/4181fAP1xAL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 699,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/eero-reliable-gigabit-connect-Coverage/dp/B091G64GVK/ref=zg_bs_amazon-devices_sccl_27/145-0382164-6446914?pd_rd_i=B091G64GVK&psc=1",
+    "product_id": "B091G64GVK"
+  },
+  {
+    "product_rank": "#28",
+    "product_title": "Made for Amazon SanDisk 128GB microSD Memory Card for Fire Tablets and Fire -TV",
+    "reviews": "4.6 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/81dQGd03YHL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 14.5,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/SanDisk-micro-Memory-Card-Tablets/dp/B013TMNPBQ/ref=zg_bs_amazon-devices_sccl_28/145-0382164-6446914?pd_rd_i=B013TMNPBQ&psc=1",
+    "product_id": "B013TMNPBQ"
+  },
+  {
+    "product_rank": "#29",
+    "product_title": "Ring Chime",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/61OIHg12JiL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 34.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Ring-Chime/dp/B09L45VFCN/ref=zg_bs_amazon-devices_sccl_29/145-0382164-6446914?pd_rd_i=B09L45VFCN&psc=1",
+    "product_id": "B09L45VFCN"
+  },
+  {
+    "product_rank": "#30",
+    "product_title": "Fire HD 8 Kids tablet, 8\" HD display, ages 3-7, 32 GB, includes a 1-year subscription to amazon Kids+ content, Pink Kid-Proof Case",
+    "reviews": "4.7 out of 5 stars",
+    "product_main_image_url": "https://images-na.ssl-images-amazon.com/images/I/61f5X01utKL._AC_UL300_SR300,200_.jpg",
+    "app_sale_range": {
+      "min": 69.99,
+      "max": 0,
+      "currency": "$"
+    },
+    "app_sale_price_currency": "$",
+    "product_detail_url": "https://www.amazon.com/Fire-HD-8-Kids-Edition-tablet/dp/B07WJS3QDX/ref=zg_bs_amazon-devices_sccl_30/145-0382164-6446914?pd_rd_i=B07WJS3QDX&psc=1",
+    "product_id": "B07WJS3QDX"
+  }
+]
