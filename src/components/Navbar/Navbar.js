@@ -7,7 +7,7 @@ import { IoSearchOutline } from "react-icons/io5";
 export const Navbar = () => {
   return (
     <div className="w-full py-3 px-5 flex items-center ">
-      <h2 className="text-xl font-bold">Apple</h2>
+      <h2 className="text-xl font-bold text-rose-600">Apple</h2>
 
       <div className="flex-grow flex items-center mx-auto max-w-xl rounded-2xl border-2 border-rose-400 pl-3">
         <input
@@ -21,11 +21,18 @@ export const Navbar = () => {
       </div>
 
       <div className="flex items-center space-x-5">
-        <NavLink icon={<HiOutlineHome className="text-xl" />} name="Home" />
+        <NavLink
+          icon={
+            <HiOutlineHome className="text-xl cursor-pointer hover:text-rose-500" />
+          }
+          name="Home"
+        />
         <NavLink name="Orders" />
         <NavLink name="About" />
         <NavLink
-          icon={<BsHandbag className="text-xl w-full h-full" />}
+          icon={
+            <BsHandbag className="text-xl w-full h-full cursor-pointer hover:text-rose-500" />
+          }
           name="Basket"
         />
       </div>
