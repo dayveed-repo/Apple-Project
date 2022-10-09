@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 const Collections = () => {
   const navigate = useNavigate();
 
-  const goToCollection = (name) => {
+  const gotoCollection = (name) => {
     return navigate("/collection/" + name);
   };
 

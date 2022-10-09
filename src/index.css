@@ -18,4 +18,8 @@
   .SectionName {
     @apply text-lg text-amber-600 font-semibold;
   }
+
+  .collectionAction {
+    @apply text-gray-500 text-lg cursor-pointer;
+  }
 }

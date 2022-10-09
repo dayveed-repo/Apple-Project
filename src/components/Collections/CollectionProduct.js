@@ -1,14 +1,24 @@
 import React from "react";
 import { MdShoppingCart } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 
-const ProductItem = ({ imgSrc, title, price, rating }) => {
+const CollectionProduct = ({ id, imgSrc, title, price, rating }) => {
   let dummie_discount = price - (price * 20) / 100;
 
+  const navigation = useNavigate();
+
+  const handleProceed = () => {
+    return navigation("/product/" + id);
+  };
+
   return (
-    <div className="w-full h-max cursor-pointer hover:scale-95 hover:shadow-lg bg-white transition-all duration-200 ease-in p-2 rounded-lg">
+    <div
+      onClick={handleProceed}
+      className="w-full bg-white h-max cursor-pointer hover:scale-95 hover:shadow-lg transition-all duration-200 ease-in p-2 rounded-lg"
+    >
       <img src={imgSrc} className="aspect-video w-full object-cover" />
 
-      <div className="mt-3">
+      <div className="my-3">
         <h4 className="text-sm font-medium">{title}</h4>
 
         <div className="flex items-end space-x-4">
@@ -26,7 +36,10 @@ const ProductItem = ({ imgSrc, title, price, rating }) => {
           <MdShoppingCart />
         </button>
 
-        <button className="text-white  bg-rose-500 rounded-md flex-grow ml-3 py-2">
+        <button
+          onClick={handleProceed}
+          className="text-white  bg-rose-500 rounded-md flex-grow ml-3 py-2"
+        >
           Buy Now
         </button>
       </div>
@@ -34,4 +47,4 @@ const ProductItem = ({ imgSrc, title, price, rating }) => {
   );
 };
 
-export default ProductItem;
+export default CollectionProduct;
