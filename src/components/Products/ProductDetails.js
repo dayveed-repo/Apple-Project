@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import product from "../../app/storeData/shoeDetail.json";
 import { AiFillMinusCircle } from "react-icons/ai";
 import { IoAddCircleSharp } from "react-icons/io5";
+import { useDispatch } from "react-redux";
+import { addProductOrder } from "../../features/counterSlice";
+import { useNavigate } from "react-router-dom";
 
 const ProductDetails = () => {
   const [productColors, setproductColors] = useState([]);
@@ -11,6 +14,9 @@ const ProductDetails = () => {
   const [sizes, setsizes] = useState([]);
   const [currentSize, setcurrentSize] = useState("");
   const [quantity, setquantity] = useState(1);
+
+  const dispatch = useDispatch();
+  const navigation = useNavigate();
 
   useEffect(() => {
     const getProductColors = () => {
@@ -85,6 +91,21 @@ const ProductDetails = () => {
     return setcurrentSize(selectedSize);
   };
 
+  const handlePurchase = () => {
+    dispatch(
+      addProductOrder({
+        size: currentSize,
+        color: currentColor,
+        quantity,
+        image: currentColourImages[0],
+        title: product[0].product_title,
+        price: product[0].original_price,
+      })
+    );
+
+    return navigation(`/product/${product[0].product_id}/pricing`);
+  };
+
   return (
     <div className="w-full max-w-4xl mx-auto grid grid-cols-2 gap-6 mt-10 mb-20">
       <div>
@@ -112,15 +133,7 @@ const ProductDetails = () => {
       <div>
         <div className="space-y-3">
           <h2 className="text-xl font-medium">{product[0].product_title}</h2>
-
-          <div className="flex items-center space-x-4">
-            <h3 className="text-2xl font-bold">
-              $ {product[0].app_sale_price}
-            </h3>
-            <h4 className="text-rose-600 text-xl line-through font-medium">
-              $ {product[0].original_price}
-            </h4>
-          </div>
+          <h3 className="text-2xl font-bold">$ {product[0].original_price}</h3>
         </div>
 
         <div className="border-t pt-3 my-5 border-gray-300">
@@ -189,8 +202,11 @@ const ProductDetails = () => {
           <button className="w-full text-center py-2 rounded-md bg-transparent border-2 text-rose-600 border-rose-600">
             Add {quantity} to Basket
           </button>
-          <button className="w-full text-center py-2 rounded-md bg-rose-600 text-white">
-            Proceed to Buy
+          <button
+            onClick={handlePurchase}
+            className="w-full text-center py-2 rounded-md bg-rose-600 text-white"
+          >
+            Proceed to Buy ({quantity})
           </button>
         </div>
       </div>

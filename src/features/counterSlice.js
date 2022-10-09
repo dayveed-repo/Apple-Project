@@ -1,17 +1,21 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  value: 0,
-  status: "idle",
+  basket: [],
+  currentOrder: null,
 };
 
 export const counterSlice = createSlice({
   name: "counter",
   initialState,
-  reducers: {},
+  reducers: {
+    addProductOrder: (state, action) => {
+      state.currentOrder = action.payload;
+    },
+  },
 });
 
-// export const {  } = counterSlice.actions;
+export const { addProductOrder } = counterSlice.actions;
 
 export const selectCount = (state) => state.counter.value;
 

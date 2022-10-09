@@ -7,6 +7,7 @@ import Products from "./components/Products/Products";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CollectionDetails from "./components/Collections/CollectionDetails";
 import ProductDetails from "./components/Products/ProductDetails";
+import ProductPricePlan from "./components/Products/ProductPricePlan";
 
 const Home = () => {
   return (
@@ -28,6 +29,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/collection/:name" element={<CollectionDetails />} />
           <Route path="/product/:productId" element={<ProductDetails />} />
+          <Route
+            path="/product/:productId/pricing"
+            element={<ProductPricePlan />}
+          />
           {/* <Route path="*" element={<Error />} /> */}
         </Routes>
 
