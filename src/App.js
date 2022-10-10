@@ -10,6 +10,7 @@ import ProductDetails from "./components/Products/ProductDetails";
 import ProductPricePlan from "./components/PricePlan/ProductPricePlan";
 import PaymentPage from "./components/Payment/PaymentPage";
 import OrderConfirmed from "./components/OrderConfirmed/OrderConfirmed";
+import DiscountOperations from "./components/PricePlan/DiscountOperations";
 
 const Home = () => {
   return (
@@ -39,6 +40,10 @@ function App() {
           <Route
             path="/product/:productId/orderConfirmed"
             element={<OrderConfirmed />}
+          />
+          <Route
+            path="/product/:productId/discountsOperations"
+            element={<DiscountOperations />}
           />
           {/* <Route path="*" element={<Error />} /> */}
         </Routes>

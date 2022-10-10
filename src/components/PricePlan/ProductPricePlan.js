@@ -10,7 +10,11 @@ const ProductPricePlan = () => {
   const navigation = useNavigate();
 
   const goToPayment = () => {
-    navigation(`/product/${currentOrder?.product_id}/payment`);
+    if (selectedOption === 1) {
+      navigation(`/product/${currentOrder?.product_id}/payment`);
+    } else {
+      navigation(`/product/${currentOrder?.product_id}/discountsOperations`);
+    }
   };
 
   return (
