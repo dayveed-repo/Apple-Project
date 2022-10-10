@@ -3,10 +3,17 @@ import { useSelector } from "react-redux";
 import PaymentOption from "./PaymentOption";
 import { BsCreditCardFill } from "react-icons/bs";
 import { IoCashOutline } from "react-icons/io5";
+import { useNavigate } from "react-router-dom";
 
 const PaymentPage = () => {
   const { currentOrder } = useSelector((state) => state.store);
   const [selectedOption, setselectedOption] = useState(1);
+
+  const navigation = useNavigate();
+
+  const ConfirmOrder = () => {
+    return navigation(`/product/${currentOrder?.product_id}/orderConfirmed`);
+  };
 
   return (
     <div className="w-full max-w-3xl mx-auto mt-10 mb-20">
@@ -62,7 +69,10 @@ const PaymentPage = () => {
       </div>
 
       <div className="w-full flex justify-end mt-10">
-        <button className="px-4 py-2 bg-rose-500 text-white rounded-md">
+        <button
+          onClick={ConfirmOrder}
+          className="px-4 py-2 bg-rose-500 text-white rounded-md"
+        >
           Confirm Order
         </button>
       </div>

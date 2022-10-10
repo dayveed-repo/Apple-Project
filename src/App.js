@@ -9,6 +9,7 @@ import CollectionDetails from "./components/Collections/CollectionDetails";
 import ProductDetails from "./components/Products/ProductDetails";
 import ProductPricePlan from "./components/PricePlan/ProductPricePlan";
 import PaymentPage from "./components/Payment/PaymentPage";
+import OrderConfirmed from "./components/OrderConfirmed/OrderConfirmed";
 
 const Home = () => {
   return (
@@ -35,6 +36,10 @@ function App() {
             element={<ProductPricePlan />}
           />
           <Route path="/product/:productId/payment" element={<PaymentPage />} />
+          <Route
+            path="/product/:productId/orderConfirmed"
+            element={<OrderConfirmed />}
+          />
           {/* <Route path="*" element={<Error />} /> */}
         </Routes>
 
