@@ -1,8 +1,11 @@
 import React from "react";
 
-function NavLink({ icon, name }) {
+function NavLink({ icon, name, pressFn }) {
   return (
-    <div className={`relative ${name === "Basket" && "h-6 w-6"}`}>
+    <div
+      onClick={pressFn}
+      className={`relative ${name === "Basket" && "h-6 w-6"}`}
+    >
       {icon ? (
         icon
       ) : (

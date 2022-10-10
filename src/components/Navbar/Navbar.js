@@ -3,8 +3,15 @@ import NavLink from "./NavLink";
 import { BsHandbag } from "react-icons/bs";
 import { HiOutlineHome } from "react-icons/hi";
 import { IoSearchOutline } from "react-icons/io5";
+import { useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
+  const navigation = useNavigate();
+
+  const goHome = () => {
+    return navigation("/");
+  };
+
   return (
     <div className="w-full py-3 px-5 flex items-center ">
       <h2 className="text-xl font-bold text-rose-600">Apple</h2>
@@ -26,6 +33,7 @@ export const Navbar = () => {
             <HiOutlineHome className="text-xl cursor-pointer hover:text-rose-500" />
           }
           name="Home"
+          pressFn={goHome}
         />
         <NavLink name="Orders" />
         <NavLink name="About" />
