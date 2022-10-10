@@ -94,6 +94,7 @@ const ProductDetails = () => {
   const handlePurchase = () => {
     dispatch(
       addProductOrder({
+        product_id: product[0].product_id,
         size: currentSize,
         color: currentColor,
         quantity,

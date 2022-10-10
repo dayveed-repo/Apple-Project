@@ -7,7 +7,7 @@ import Products from "./components/Products/Products";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CollectionDetails from "./components/Collections/CollectionDetails";
 import ProductDetails from "./components/Products/ProductDetails";
-import ProductPricePlan from "./components/Products/ProductPricePlan";
+import ProductPricePlan from "./components/PricePlan/ProductPricePlan";
 
 const Home = () => {
   return (
