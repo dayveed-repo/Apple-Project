@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CollectionDetails from "./components/Collections/CollectionDetails";
 import ProductDetails from "./components/Products/ProductDetails";
 import ProductPricePlan from "./components/PricePlan/ProductPricePlan";
+import PaymentPage from "./components/Payment/PaymentPage";
 
 const Home = () => {
   return (
@@ -33,6 +34,7 @@ function App() {
             path="/product/:productId/pricing"
             element={<ProductPricePlan />}
           />
+          <Route path="/product/:productId/payment" element={<PaymentPage />} />
           {/* <Route path="*" element={<Error />} /> */}
         </Routes>
 
