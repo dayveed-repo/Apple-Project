@@ -15,12 +15,24 @@ const PaymentPage = () => {
     return navigation(`/product/${currentOrder?.product_id}/orderConfirmed`);
   };
 
+  const calPrice = () => {
+    if (currentOrder?.discountPercent) {
+      return (
+        (currentOrder.price -
+          (currentOrder.discountPercent / 100) * currentOrder?.price) *
+        currentOrder.quantity
+      );
+    } else {
+      return currentOrder.price * currentOrder.quantity;
+    }
+  };
+
   return (
     <div className="w-full max-w-3xl mx-auto mt-10 mb-20">
       <div className="divide-y divide-gray-300 pb-3 border-b border-gray-400">
         <div className="priceCost">
           <h3>Subtotal: </h3>
-          <p> ${currentOrder?.price}</p>
+          <p> ${calPrice()}</p>
         </div>
 
         <div className="priceCost">
@@ -30,12 +42,14 @@ const PaymentPage = () => {
 
         <div className="priceCost">
           <h3>Discount: </h3>
-          <p>0%</p>
+          <p>
+            {currentOrder?.discountPercent ? currentOrder.discountPercent : 0}%
+          </p>
         </div>
 
         <div className="priceCost">
           <h3>Total: </h3>
-          <p>${currentOrder?.price + 14}</p>
+          <p>${calPrice() + 14}</p>
         </div>
       </div>
 

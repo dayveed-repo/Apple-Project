@@ -4,10 +4,10 @@ import ProductItem from "./ProductItem";
 
 const Products = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto mt-10 mb-20 space-y-4">
+    <div className="w-full max-w-4xl px-4 mx-auto mt-10 mb-20 space-y-4">
       <h2 className="SectionName">Products</h2>
 
-      <div className="w-full grid grid-cols-4 gap-4">
+      <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-4">
         {products.map((product) => (
           <ProductItem
             title={product?.product_title}

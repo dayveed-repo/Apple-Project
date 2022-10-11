@@ -4,7 +4,9 @@ function NavLink({ icon, name, pressFn }) {
   return (
     <div
       onClick={pressFn}
-      className={`relative ${name === "Basket" && "h-6 w-6"}`}
+      className={`relative w-full md:w-auto py-1 md:py-0 ${
+        name === "Basket" && "h-6 w-6"
+      }`}
     >
       {icon ? (
         icon

@@ -4,8 +4,8 @@ import BannerImage from "../../Images/backgroundImage.png";
 const Banner = () => {
   return (
     <div className="w-full overflow-y-hidden max-h-64 h-[40vh] bg-gradient-to-br from-amber-400 to-rose-400">
-      <div className="w-full flex space-x-4 h-full max-w-4xl mx-auto">
-        <div className="pt-10 space-y-3">
+      <div className="w-full relative flex space-x-4 h-full max-w-4xl mx-auto">
+        <div className="absolute md:relative pt-10 space-y-3 left-[10%] md:left-0 h-full md:h-auto backdrop-blur-sm md:backdrop-blur-none">
           <h3 className="text-3xl text-white font-bold">
             Top Quality Products
           </h3>
