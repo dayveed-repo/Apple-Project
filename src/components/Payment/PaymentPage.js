@@ -28,7 +28,7 @@ const PaymentPage = () => {
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto mt-10 mb-20">
+    <div className="w-full max-w-3xl mx-auto mt-10 mb-20 px-4">
       <div className="divide-y divide-gray-300 pb-3 border-b border-gray-400">
         <div className="priceCost">
           <h3>Subtotal: </h3>
@@ -58,7 +58,7 @@ const PaymentPage = () => {
 
         <textarea
           type="text"
-          className="bg-white w-1/3 px-3 py-1 outline-none shadow-lg"
+          className="bg-white w-full md:w-2/3 px-3 py-1 outline-none shadow-lg"
           placeholder="Address"
         />
       </div>

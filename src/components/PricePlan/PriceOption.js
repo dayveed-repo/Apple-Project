@@ -16,16 +16,16 @@ const PriceOption = ({
       }`}
     >
       <div
-        className={`w-4 h-4 flex items-center justify-center rounded-full border-2 ${
+        className={`min-w-2 min-h-4 w-4 h-4 flex items-center justify-center rounded-full border-2 ${
           optionNum === selectedOption ? "border-rose-500" : "border-gray-400"
         } `}
       >
         {optionNum === selectedOption && (
-          <div className="w-2 h-2 bg-red-500 rounded-full" />
+          <div className="min-w-2 min-h-4 w-2 h-2 bg-red-500 rounded-full" />
         )}
       </div>
 
-      <div className="space-y-2">
+      <div className="space-y-2 w-[90%]">
         <h3 className="text-lg font-semibold">{name}</h3>
         {optionNum === 1 ? (
           <h4 className="text-sm text-gray-600">

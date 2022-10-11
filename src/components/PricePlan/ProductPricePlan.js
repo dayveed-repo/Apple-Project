@@ -18,7 +18,7 @@ const ProductPricePlan = () => {
   };
 
   return (
-    <div className="w-full max-w-3xl mx-auto mt-10 mb-20">
+    <div className="w-full max-w-3xl mx-auto mt-10 mb-20 px-4">
       <div className="flex">
         <img
           src={currentOrder?.image}

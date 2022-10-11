@@ -108,7 +108,7 @@ const ProductDetails = () => {
   };
 
   return (
-    <div className="w-full max-w-4xl mx-auto grid grid-cols-2 gap-6 mt-10 mb-20">
+    <div className="w-full max-w-4xl mx-auto grid grid-cols-1 px-4 md:grid-cols-2 gap-6 mt-10 mb-20">
       <div>
         <img
           src={image}

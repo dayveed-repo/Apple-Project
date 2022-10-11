@@ -28,7 +28,7 @@ const PaymentOption = ({
         )}
       </div>
 
-      <div className="space-y-2 w-full">
+      <div className="space-y-2 w-[90%]">
         <h3 className="font-semibold flex items-center">
           {icon} {name}
         </h3>

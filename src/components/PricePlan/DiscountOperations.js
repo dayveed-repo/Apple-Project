@@ -27,7 +27,7 @@ function DiscountOperations() {
   };
 
   return (
-    <div className="w-full mx-auto max-w-3xl mt-10 mb-20">
+    <div className="w-full mx-auto max-w-3xl mt-10 mb-20 px-4">
       <div className="w-full flex flex-col items-center">
         <h3 className="flex text-lg items-center text-center">
           Get <h4 className="mx-1 font-semibold text-rose-500">70%</h4> off on
@@ -42,8 +42,8 @@ function DiscountOperations() {
 
       <div className="space-y-3 mt-5">
         <h3 className="font-medium">
-          Invite friends and family to signup to the application and Get them to
-          buy the product by sharing them the link below
+          1. Invite friends and family to signup to the application and Get them
+          to buy the product by sharing them the link below
         </h3>
         <div className="flex items-center space-x-2">
           <FiCopy
@@ -75,7 +75,7 @@ function DiscountOperations() {
 
       <div>
         <h3 className="font-medium mb-3">
-          Join Buying group and get 10 people to join the group
+          2. Join Buying group and get 10 people to join the group
         </h3>
 
         {joinedGroup ? (

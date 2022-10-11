@@ -7,7 +7,7 @@ import CollectionProduct from "./CollectionProduct";
 
 const CollectionDetails = () => {
   return (
-    <div className="w-full max-w-4xl mx-auto mt-10 mb-20">
+    <div className="w-full max-w-4xl mx-auto mt-10 mb-20 px-4">
       <div className="flex items-center justify-between px-3 pb-3 mb-3 border-b border-gray-300">
         <h3 className="text-gray-500 font-medium">44 results</h3>
 
@@ -18,7 +18,7 @@ const CollectionDetails = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
         {collection.docs.map((product) => (
           <CollectionProduct
             key={product.product_id}
